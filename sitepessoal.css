@@ -1,0 +1,259 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #0a192f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+display: flex;
+justify-content: center;
+background-color: #112240;
+padding: 15px;
+position: fixed;
+width: 100%;
+z-index: 1000;
+
+}
+.navbar a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.navbar a:hover {
+    background:linear-gradient(45deg, #0aaddf, #1eeebd );
+    border-radius: 5px;
+    transform: translateY(-5px); scale: (1.5);
+    color: black;
+}
+h1{
+    color: #fcfffe;
+    margin-bottom: 0px;
+}
+.titulo{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.hero img {
+    position: absolute;
+    top:60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    padding: 3px;
+    background-clip:padding-box, border-box ;
+}
+.hero h1{
+    font-size: 3em;
+    z-index: 1;
+}
+.hero p{
+    font-size: 1.5em;
+    z-index: 1;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    padding-left: 20px;
+    background-color: #112240;
+}
+section{
+    margin: 10px;
+    padding: 10px;
+    background-color: #1C2B3A;
+    border-radius: 10px;
+    text-align: center;
+}
+section:hover {
+    background-color: #1C2B3A;
+    color: rgb(255,255,255);
+}
+.habilidade{
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #112240;
+    transition: transform 0.3s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    background-clip:padding-box, border-box ;
+}
+.habilidade:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #64ffda;
+    color: rgb(255, 255, 255);
+}
+.formulario input, .formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #64ffda;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #0a192f;
+    color: white;
+}
+.formulario button {
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    border-radius: 10px;
+    padding: 10px;
+}
+.formulario button:active {
+    background: linear-gradient(#2df05e, #32881d);
+    transform: scale(1.1);
+}
+.formulario button:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    
+}
+.botao{
+    display: inline-block;
+    margin: 10px;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    background-clip:padding-box, border-box ;
+}
+.botao:hover {
+    background-color: #64ffda;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+#curriculo a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    background-clip:padding-box, border-box ;
+}
+#curriculo a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+#MeusProjetos a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    background-clip:padding-box, border-box ;
+}
+
+#MeusProjetos a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+#redes {
+    text-align: center;
+    margin: 10px;
+    padding: 18px;
+    border-radius: 10px;
+}
+.linkedin {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd );
+    background-clip:padding-box, border-box ;
+}
+.linkedin:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.Github {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.3s;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd);
+    background-clip: padding-box, border-box;
+}
+.Github:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+#toggle-theme {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #0aaddf, #1eeebd);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.3s;
+    z-index: 1001;
+}
+#toggle-theme:hover {
+    transform: scale(1.1);
+    color: #fcfffe;
+}
+.light-mode {
+    background: linear-gradient(45deg, #0aaddf, #1eeebd);
+    color: rgb(0, 0, 0);
+}
+.light-mode .navbar {
+    background-color: #3a79a3;
+}
+.light-mode .hero {
+    background-color: #3a79a3;
+    color: #000000;
+}
+.light-mode section{
+    background-color: #3a79a3;
+    color: #000000;
+}
+.light-mode .formulario button:hover,
+.light-mode #curriculo a:hover,
+.light-mode .MeusProjetos,
+.light-mode .linkedin:hover,
+.light-mode .Github:hover {
+    background-color: #13b38d;
+    color: rgb(255, 250, 250);
+}
+
